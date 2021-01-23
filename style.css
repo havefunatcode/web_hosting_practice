@@ -1,0 +1,21 @@
+html, body    {
+    height: 100%;
+    background-color: black;
+}
+.container  {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#character{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    margin: auto;
+    -moz-transition: all 1s; 
+    -webkit-transition: all 1s;  
+    -ms-transition: all 1s;  
+    -o-transition: all 1s;  
+    transition: all 1s;  
+}
